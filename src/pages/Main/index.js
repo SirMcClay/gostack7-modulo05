@@ -1,12 +1,14 @@
 import React from 'react';
 
-import { Title } from './styles';
+import { FaGithubAlt } from 'react-icons/fa';
+
+import { Container } from './styles';
 
 export default function Main() {
   return (
-    <Title error={false}>
-      Main
-      <small>menor</small>
-    </Title>
+    <Container>
+      <FaGithubAlt />
+      Repositórios
+    </Container>
   );
 }
